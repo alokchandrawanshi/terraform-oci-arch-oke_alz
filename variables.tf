@@ -110,7 +110,7 @@ variable "node_ocpus" {
 }
 
 variable "node_memory" {
-  default = 48
+  default = 64
 }
 
 variable "oci_vcn_ip_native" {
@@ -118,7 +118,7 @@ variable "oci_vcn_ip_native" {
 }
 
 variable "max_pods_per_node" {
-  default = 10
+  default = 72
 }
 
 variable "pods_cidr" {
