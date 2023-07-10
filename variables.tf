@@ -102,15 +102,15 @@ variable "node_pool_image_id" {
 }
 
 variable "node_pool_boot_volume_size_in_gbs" {
-  default = 50
+  default = 152
 }
 
 variable "node_ocpus" {
-  default = 1
+  default = 4
 }
 
 variable "node_memory" {
-  default = 4
+  default = 48
 }
 
 variable "oci_vcn_ip_native" {
@@ -134,7 +134,7 @@ variable "pods_subnet_cidr" {
 }
 
 variable "node_linux_version" {
-  default = "7.9"
+  default = "8.8"
 }
 
 variable "node_count" {
